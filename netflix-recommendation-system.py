@@ -6,7 +6,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load the data
-data = pd.read_csv('netflixData.csv')
+data = pd.read_csv('path/to/your/netflixData.csv')
 
 # Select relevant columns
 data = data[["Title", "Description", "Genres", "Content Type"]]
